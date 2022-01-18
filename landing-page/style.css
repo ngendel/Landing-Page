@@ -2,12 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
 
+
+html{
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body{
     font-family: play;
     flex-direction: column;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 14px;
+    
+ 
     
 }
 
@@ -17,7 +27,7 @@ body{
     flex-direction: column;
     
     
-    background-color: #1f2937;
+    background-color: #1f2937b7;
     margin: px;
     font-family: play;
     padding: px;
@@ -26,7 +36,7 @@ body{
 
 .logo{
     display: flex;
-    color: greenyellow;
+    color: rgb(8, 214, 250);
     font-weight: bold;
     font-size: xx-large;
     padding: 12px;
@@ -53,6 +63,7 @@ body{
     
     display: flex;
     justify-content: space-between;
+    border-radius: 25px;
     background-color: #1f2937;
     margin: 0px;
     font-family: play;
@@ -82,6 +93,8 @@ a{
     flex-direction: column;
     padding: 120px;
     margin: -70px;
+    border-radius: 25px;
+    
     
 
 
@@ -100,12 +113,13 @@ a{
     display: flex;
     padding: 10px;
     
+    
 
 }
 
 button{
-    border-radius: 25px;
-    background: yellowgreen;
+    border-radius: 15px;
+    background: rgb(2, 183, 255);
     padding: 20px;
 
    
@@ -116,16 +130,25 @@ button{
 }
 
 .mid-content{
+    
     justify-content: center;
     text-align: center;
     margin-top: 52px;
     
+    
 }
 
 .mid-title{
-    color: black;
+    color: rgb(255, 255, 255);
+    
+    background-color:#22354b71;
+    border-radius: 25px;
     margin-bottom: 52px;
+    border: 4px solid rgba(0, 238, 255, 0.377);
+    padding: 24px;
+    
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 info{
@@ -134,6 +157,9 @@ info{
 
 .text{
     max-width: 300px;
+    color: white;
+    background-color: #3040578f;
+    
 }
 
 .container{
@@ -142,11 +168,12 @@ info{
     justify-content: space-evenly;
     margin-bottom: 72px;
     padding: 20px;
+    background-color: #1f2937b7; ;
 }
 
 .img_info{
     border-radius: 5px;
-    border: 0px solid black;
+    border: 0px solid rgba(0, 0, 0, 0.39);
     width: "300px";
 
 }
@@ -156,7 +183,7 @@ info{
     flex-direction: column;
     font-size: xx-large;
     align-items: flex-end;
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.774);
     margin: 0px;
     padding: 110px;
     
@@ -168,12 +195,14 @@ info{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellowgreen;
+    background-color: rgba(20, 123, 163, 0.63);
+    color: white;
     border-radius: 15px;
     padding: 30px;
     border-top: 100px;
     border-bottom: 80px;
     margin: 96px;
+    
     
 }
 
@@ -184,7 +213,7 @@ info{
 
 button_a{
     border-radius: 25px;
-    background: yellowgreen;
+    background: rgb(0, 195, 255);
     padding: 10px;
     size: 100px;
     margin-top: 2px;
@@ -196,7 +225,7 @@ button_a{
 
 
 .footer{
-    background: #1f2937;
+    background: #1f293798;
     color: white;
     height: 72px;
     display: flex;
