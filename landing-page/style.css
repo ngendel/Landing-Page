@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     display: flex;
     margin: 0;
-    padding: 14px;
+    padding: 50px;
     
  
     
@@ -31,6 +31,7 @@ body{
     margin: px;
     font-family: play;
     padding: px;
+    border-radius: 15px;
 
 }
 
@@ -63,7 +64,7 @@ body{
     
     display: flex;
     justify-content: space-between;
-    border-radius: 25px;
+    border-radius: 18px;
     background-color: #1f2937;
     margin: 0px;
     font-family: play;
@@ -111,10 +112,16 @@ a{
 
 .statement-img-cont{
     display: flex;
-    padding: 10px;
+    padding: 0.5in;
+    border: 1px solid rgba(49, 184, 238, 0.63);
+    border-radius: 12px;
     
     
 
+}
+
+.ghost{
+    padding: 8px;
 }
 
 button{
@@ -169,6 +176,7 @@ info{
     margin-bottom: 72px;
     padding: 20px;
     background-color: #1f2937b7; ;
+    border-radius: 25px;
 }
 
 .img_info{
@@ -186,6 +194,7 @@ info{
     background-color: rgba(211, 211, 211, 0.774);
     margin: 0px;
     padding: 110px;
+    border-radius: 15px;
     
     
 }
@@ -232,6 +241,7 @@ button_a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 .credit{
